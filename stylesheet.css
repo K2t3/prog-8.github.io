@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Anton', sans-serif;
+  margin:0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none
+}
+
+header {
+  width:100%;
+  height:auto;
+  position: relative;
+  background-color:rgba(0,0,0,0);
+  position:fixed;
+  top:30;
+  text-align: center;
+  z-index:10;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+header a {
+  color: white;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.header-inner {
+  width:960px;
+  height:50px;
+  margin:0 auto;
+}
+
+.top-wrapper {
+  width:100%;
+  height:auto;
+  background: url(Livello-7.png) no-repeat 100% 100%;
+  background-size: cover;
+}
+
+.top-inner {
+  width:960px;
+  height:650px;
+  margin:0 auto;
+  position-relative;
+  z-index: 0;
+}
+
+.top-description {
+  text-align: center;
+  color:white;
+}
+
+.top-description h2{
+  padding-top:250px;
+  margin-top:0;
+  margin-bottom:0;
+  letter-spacing: 5px;
+}
+.top-description p {
+  letter-spacing: 2px;
+  margin-top:0px;
+  font-size: 12px;
+}
+
+.top-description .btn {
+  display: inline-block;
+  color:white;
+  letter-spacing: 1px;
+  background-color: #16a085;
+  padding: 8px 35px;
+  font-size: 8px;
+  border-radius: 2px;
+}
+
+.photoapp-wrapper {
+  width:100%;
+  height:auto;
+  background-color: #f4f4f4;
+}
+
+.photoapp-inner {
+  width:960px;
+  height:550px;
+  margin:0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.photoapp-description {
+  padding-top:100px;
+  width:600px;
+  height:550px;
+  margin-right:auto;
+}
+
+.photoapp-description h2{
+  text-align: left;
+  color:#16a085;
+  margin-top:0px;
+}
+
+#hand {
+  position: absolute;
+  right:0px;
+  bottom:-300px;
+}
+
+.design-wrapper {
+  width:100%;
+  height:auto;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.design-inner {
+  width:960px;
+  height:550px;
+  position:relative;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.design-description {
+  padding-top:100px;
+  width: 480px;
+  height:550px;
+  margin-left:auto;
+}
+
+.design-description h2 {
+  color:#16a085;
+  margin-top:0px;
+  text-align:left;
+}
+
+#iphone {
+  position:absolute;
+  left:-50px;
+  bottom:-300px;
+}
+
+.ourcommunity-wrapper {
+  width:100%;
+  height:auto;
+  background-color: #f4f4f4;
+}
+
+.ourcommunity-inner {
+  width:960px;
+  height:550px;
+  margin:0 auto;
+  position: relative;
+  z-index: 4;
+  overflow:hidden;
+}
+
+.ourcommunity-description {
+  position: relative;
+}
+
+.ourcommunity-logo {
+  display:inline;
+}
+
+.ourcommunity-photo {
+  display:inline;
+}
